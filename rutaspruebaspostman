@@ -1,0 +1,20 @@
+metodo GET:  http://localhost:4001/api/pacientes
+metodo POST: http://localhost:4001/api/pacientes
+
+el json
+{
+    "nombre": "Juan Carlos",
+    "apellido": "Pérez",
+    "direccion": "Calle falsa 456"
+}
+
+metodo PUT : http://localhost:4001/api/pacientes/(id)
+el json
+
+{
+    "nombre": "Juan Carlos",
+    "apellido": "Pérez",
+    "direccion": "Calle correta 123"
+}
+metodo DELETE :http://localhost:4001/api/pacientes/(id)
+respuesta: message: 'Paciente eliminado correctamente'
